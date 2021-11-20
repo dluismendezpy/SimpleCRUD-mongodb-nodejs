@@ -1,0 +1,11 @@
+{
+  "name": "simpleloginandsignup",
+  "version": "1.0.0",
+  "description": "Simple Login and Signup with mongodb, express and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Mendez",
+  "license": "ISC"
+}
