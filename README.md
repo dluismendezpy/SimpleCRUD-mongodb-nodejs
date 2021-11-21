@@ -5,5 +5,4 @@
 ```shell
 npm i 
 npm start
-yarn start
 ```
