@@ -36,19 +36,21 @@ const create = async () => {
 
 // Update
 const Update = async (id) => {
-    const people = await peopleModel.updateOne({_id:id},
+  const people = await peopleModel.updateOne(
+    { _id: id },
     {
-        $set:{
-            name: "Name Updated",
-            country: "United States"
-        }
-    })
-    console.log(people)
-}
+      $set: {
+        name: "Name Updated",
+        country: "United States",
+      },
+    }
+  );
+  console.log(people);
+};
 
 const Delete = async (id) => {
-    const people = await peopleModel.deleteOne({_id:id})
-    console.log(people)
-}
+  const people = await peopleModel.deleteOne({ _id: id });
+  console.log(people);
+};
 
-Delete("61986c4487935b62132088cf")
+Delete("61986c4487935b62132088cf");
